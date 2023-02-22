@@ -1,0 +1,29 @@
+<mat-card>
+  <mat-card-title>Novo Aluno</mat-card-title>
+  <form [formGroup]="form" class="form">
+    <mat-form-field>
+      <input matInput placeholder="nome" formControlName="nome">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="sobrenome" formControlName="sobrenome"> 
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="idade" formControlName="idade"> 
+    </mat-form-field>
+    <mat-form-field>
+      <mat-select placeholder="sexo" formControlName="sexo">
+        <mat-option value="M">Masculino</mat-option>
+        <mat-option value="F">Feminino</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+  </form>
+  
+  <button mat-raised-button (click)="studentCreate()" class="button" color="primary">
+    Salvar
+  </button>
+  
+  <button mat-raised-button (click)="cancelar()">
+    Cancelar
+  </button>
+</mat-card>

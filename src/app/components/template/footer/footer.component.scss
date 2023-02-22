@@ -1,0 +1,16 @@
+@import "./../../scss/variables";
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    & span {
+        font-weight: 300;
+    }
+}
+
+.text-color {
+    color: $primary-color;
+    font-weight: 700;
+}

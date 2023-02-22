@@ -1,0 +1,15 @@
+$primary-color: #3f51b5;
+$white: #ffffff;
+$edit: #d9cd26;
+$delete: #e35e6b;
+$success: #28a745;
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.button {
+    margin: 20px 15px 0px 0px;
+}

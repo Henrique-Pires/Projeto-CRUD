@@ -1,0 +1,14 @@
+@import "./../../scss/variables";
+
+.size {
+    width: 100%;
+}
+.edit {
+    margin-right: 10px;
+}
+.edit > i {
+    color: $edit;
+}
+.delete > i {
+    color: $delete;
+}
